@@ -17,7 +17,6 @@ function Payco(){
 
     return(
         <Fragment>
-            <h1>checkout</h1>
             {invoices.map(invoice => {return <Checkout key={invoice.id} checkout={invoice}/>})}
         </Fragment>
     )

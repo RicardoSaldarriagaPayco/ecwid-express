@@ -70,7 +70,7 @@ function Login(){
                                                                style={{display:'none'}}></div>
 
                                                             <div className="fieldset__note" aria-hidden="true"
-                                                               style={{display:'none'}}style={{maxHeight: 2000+'vh'}}></div>
+                                                               style={{maxHeight: 2000+'vh',display:'none'}}></div>
                                                         </div>
                                                         <div className="fieldset fieldset-itransact">
                                                             <div className="fieldset__field-wrapper">
@@ -106,9 +106,9 @@ function Login(){
 
                                                             </div>
                                                             <div className="field__error" aria-hidden="true"
-                                                               style={{display:'none'}}style={{maxHeight: 2000+'vh'}}></div>
+                                                               style={{maxHeight: 2000+'vh', display:'none'}}></div>
                                                             <div className="fieldset__note" aria-hidden="true"
-                                                               style={{display:'none'}}style={{maxHeight: 2000+'vh'}}></div>
+                                                               style={{maxHeight: 2000+'vh',display:'none'}}></div>
                                                         </div>
                                                         <div className="fieldset fieldset-itransact">
                                                             <div className="fieldset__field-wrapper">
@@ -143,9 +143,9 @@ function Login(){
                                                                 <div className="fieldset__field-suffix"></div>
                                                             </div>
                                                             <div className="field__error" aria-hidden="true"
-                                                               style={{display:'none'}}style={{maxHeight: 2000+'vh'}}></div>
+                                                               style={{maxHeight: 2000+'vh',display:'none'}}></div>
                                                             <div className="fieldset__note" aria-hidden="true"
-                                                               style={{display:'none'}}style={{maxHeight: 2000+'vh'}}></div>
+                                                               style={{maxHeight: 2000+'vh',display:'none'}}></div>
                                                         </div>
                                                     </div>
                                                 </div>
