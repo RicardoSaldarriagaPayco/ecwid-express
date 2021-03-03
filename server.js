@@ -1,11 +1,12 @@
 const express = require('express');
-
 const app = express();
+const cors = require('cors');
 
-app.get('/api/customers', (req, res)=>{
+app.use(cors());
+
+app.get('/invoice', (req, res)=>{
     const customers = [
-        {id:1, firstName: 'john', lastName: 'Smith'},
-        {id:2, firstName: 'richi', lastName: 'alvarez'}
+        {id:1, firstName: 'john', lastName: 'Smith'}
     ];
 
     res.json(customers);
