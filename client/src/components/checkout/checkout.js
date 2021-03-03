@@ -37,11 +37,17 @@ function Checkout({checkout}){
    }
     return(
     <div>
-        <h2>checkout epayco</h2>
-    <div>
-        <button onClick={() => openchekout()}>Pagar</button>
-    </div>
-        </div>
+            <div className="loader-container">
+                <div className="loading"></div>
+            </div>
+            <p style={{textAlign:'center'}} className="epayco-title">
+                <span className="animated-points">Cargando metodos de pago</span>
+                    <br/><small className="epayco-subtitle"></small>
+                    <button onClick={() => openchekout()}>Pagar</button>
+            </p>                        
+            
+</div>
+  
         )
 }
 
